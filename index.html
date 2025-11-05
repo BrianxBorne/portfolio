@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="static/images/BrianMutune.jpg">
+    <title>Brian Mutune Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Brian Mutune</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id ="hero"></div>
+        <div class="about_me">  
+            <h1>About Me</h1>
+
+            <div class="about_content">   
+                <div id="my_image"><img src="static/images/BrianMutune.jpg" alt="Brian Mutune"></div>
+            <p>My name is Brian Mutune, founder of BorneLabs. I’m a web developer and designer focused on mobile tools, open-source apps, and AI-powered platforms.
+                 I build open-source projects as both a hobby and a way to keep learning and improving.
+                 I’m currently pursuing a degree in Mathematics and Computer Science at Kenyatta University and hold an AWS Cloud Practitioner certification.
+                  At BorneLabs, I serve as CEO, overseeing the wing leaders of our three key areas: Software & Solutions (SAS),
+                  Innovation & Exploration (IAE), and Education & Outreach (EAO). I also support projects across all wings wherever my skills are needed.</p>
+            </div> 
+    
+        </div>
+
+        
+        <section id="services">
+            <h1>My Services</h1>
+
+            <div id="allservices">
+            <div class="service">
+                <img src="static/images/web.png" alt="Web Development">
+                <h2>Web Development</h2>
+                <p>Building responsive and dynamic websites using modern technologies.</p>
+            </div>
+
+            <div class="service">
+                <img src="static/images/poster.jpg" alt="Poster Design">
+                <h2>Poster Design</h2>
+                <p>Creating eye-catching posters and promotional materials.</p>
+            </div>
+
+            <div class="service">
+                <img src="static/images/mobile.jpg" alt="Mobile App Development">
+                <h2>Mobile App Development</h2>
+                <p>Creating user-friendly mobile applications for iOS and Android.</p>
+            </div>
+            </div>
+        </section>
+
+        <div id ="contact">   
+            <h1>Contact Me</h1>
+            <div id="form">
+                <form action="mailto:brianxborne@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                   <div id="buttons">
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                    </div> 
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.instagram.com/brianxborne/"><i id="twitter" class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/BrianxBorne"><i id="github" class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/brian-mutune/"><i id="linkedin" class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024 Brian Mutune. All rights reserved.</p>
+    </footer>
+</body>
+</html>
